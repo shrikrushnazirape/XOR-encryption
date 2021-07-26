@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:radial-gradient(rgba(24, 3, 63, 0.027), rgba(4, 4, 8, 0.575)), url('./110.jpg');
+    z-index: 5;
+    
+ 
+      
+}
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.main-box{
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px;
+   
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: rgba(245, 245, 245, 0.2) 0px 12px 28px 0px, rgba(255, 255, 255, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    background-color: #0000008a;
+    color: #fff;
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.lable{
+    margin-top: 20px;
+    text-align: left !important;
+    font-size: 1.5rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+input{
+    margin-top: 20px;
+    text-align: center;
+    margin: 10px, auto;
+    width: 80%;
+    border: 2px solid rgb(230, 224, 224);
+    background: #000;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+.btn{
+    margin-top: 30px;
+    background: rgb(243, 243, 243);
+    width: 50%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.btn:hover{
+    transform: scale(1.08);
+}
+
+.output{
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+}
+.footer{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #fff;
+}
