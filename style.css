@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background:radial-gradient(rgba(24, 3, 63, 0.027), rgba(4, 4, 8, 0.575)), url('./110.jpg');
+    background:radial-gradient(rgba(24, 3, 63, 0.027), rgba(4, 4, 8, 0.575)), url('./110.PNG');
     z-index: 5;
     
  
@@ -74,13 +74,15 @@ input{
     width: 80%;
 }
 .footer{
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1.2rem;
-    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     background: transparent;
     color: #fff;
+    padding-bottom: 20px;
 }
